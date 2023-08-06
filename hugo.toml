@@ -1,0 +1,25 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+theme = 'gobuchtm'
+
+
+[markup]
+  [markup.highlight]
+  noHl = true
+  hl_inline = false
+  style = 'github-dark'
+  tabWidth = 3
+
+[params]
+  brand = "Кот Не Работает"
+  description = ""
+
+  dark_mode = false
+  menu = [
+    {Name = "Заметки", URL = "/posts/", HasChildren = true, Limit = 5}
+  ]
+
+  matrix_url = 'https://matrix.to/#/@rokkerruslan:matrix.org'
+  github_url = 'https://github.com/rokkerruslan'
+  email_url = 'mailto:rokkerruslan@protonmail.com'
+  linkedin_url = 'https://linkedin.com/in/rokkerruslan'
