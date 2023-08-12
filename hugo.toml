@@ -1,22 +1,19 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
+baseURL = 'https://rokkerruslan.github.io'
+languageCode = 'ru-ru'
 theme = 'gobuchtm'
-
 
 [markup]
   [markup.highlight]
-  noHl = true
-  hl_inline = false
   style = 'github-dark'
   tabWidth = 3
 
 [params]
-  brand = "Кот Не Работает"
-  description = ""
+  brand = 'Кот Не Работает'
+  description = 'Сказки для инженеров-программистов младшего уровня'
 
   dark_mode = false
   menu = [
-    {Name = "Заметки", URL = "/posts/", HasChildren = true, Limit = 5}
+    {Name = 'Заметки', URL = '/posts/', HasChildren = true, Limit = 5}
   ]
 
   matrix_url = 'https://matrix.to/#/@rokkerruslan:matrix.org'
